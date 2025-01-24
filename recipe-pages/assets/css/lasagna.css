@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Kanit;
+}
+.recipe-img {
+  font-family: Kanit;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 100px;
+  margin: 20px;
+}
+.recipe-img img {
+  height: 400px;
+}
+.recipe-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.recipe-title p {
+  text-indent: 10px;
+}
+.title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ffa62b;
+}
+.title img {
+  height: 50px;
+}
+.text-control {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  margin: 10px;
+  flex-direction: column;
+}
+.text-control h2 {
+  color: #ffa62b;
+}
+.text-control div {
+  width: 500px;
+  border: 2px solid black;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.text-control li {
+  list-style-type: none;
+}
+.overall {
+  display: flex;
+  flex-direction: column;
+}
+#howTo {
+  margin: 20px;
+}
+#make {
+  text-align: center;
+}
+
+#howTo li {
+  list-style-type: none;
+  margin: 5px;
+}
+.second-box {
+  border: 2px solid black;
+  padding: 20px;
+}
+.ingredients img {
+  height: 50px;
+}
+.ingredients {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.header-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffa62b;
+  gap: 10px;
+}
+.header-2 img {
+  height: 50px;
+}
