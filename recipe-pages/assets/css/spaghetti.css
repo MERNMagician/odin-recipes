@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Kanit;
+}
+.title-box {
+  display: flex;
+  margin: 20px;
+  gap: 10px;
+  align-items: center;
+}
+.title-box img {
+  height: 500px;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.description p {
+  text-align: center;
+}
+.header-1 img {
+  height: 50px;
+}
+.header-1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ffa62b;
+}
+.control {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  gap: 20px;
+}
+.control div {
+  border: 2px solid black;
+  padding: 20px;
+}
+.control li {
+  list-style-type: none;
+  margin: 5px;
+}
+.overall-control {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 20px;
+}
+.howTo li {
+  list-style-type: none;
+}
+.steps {
+  border: 2px solid black;
+  padding: 20px;
+}
+.header-2,
+.header-3 {
+  color: #ffa62b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.header-2 img,
+.header-3 img {
+  height: 40px;
+}
+.header-3 {
+  margin: 10px;
+}
+.howTo li {
+  margin: 10px;
+}
