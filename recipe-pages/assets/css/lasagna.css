@@ -13,6 +13,9 @@ body {
   gap: 100px;
   margin: 20px;
 }
+.recipe-img p {
+  text-align: center;
+}
 .recipe-img img {
   height: 400px;
 }
